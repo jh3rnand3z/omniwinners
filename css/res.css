@@ -1,0 +1,102 @@
+@media (max-width : 1250px){
+    .cash-tag{
+        left: 234px;
+    }
+}
+@media (max-width : 1150px){
+    .cash-tag{
+        left: 185px;
+    }
+    .btn-main {
+        left: 458px;
+        top: 369px;
+    }
+}
+@media (max-width : 1050px){
+    .cash-tag {
+       left: 93px;
+   	   top: 285px;
+    }
+    .btn-main {
+        left: 331px;
+        top: 369px;
+    }
+}
+@media (max-width : 950px){
+    .cash-tag {
+        left: 150px;
+        top: 316px;
+    }
+    .btn-main {
+        left: 300px;
+        top: 369px;
+    }
+    .bottom ul {
+        padding: 0;
+    }
+}
+@media (max-width : 900px){
+    .cash-tag {
+        left: 140px;
+        top: 287px;
+    }
+}
+@media (max-width : 850px){
+    .cash-tag {
+        left: 85px;
+        top: 268px;
+    }
+    .btn-main {
+        left: 230px;
+        top: 310px;
+    }
+}
+@media (max-width : 767px){
+    .cash-tag {
+        position: relative;
+        top: 36px;
+        left: 15px;
+    }
+    .btn-main {
+        left: 0;
+        position: relative;
+        top: 27px;
+        width: 290px;
+        background-image: url("../img/button.png");
+        background-position: 0 22px;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+    .btn-main img {
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-name: greenPulse;
+        border: 1px solid #333333;
+        border-radius: 100px;
+        height: 38px;
+        left: 14px;
+        padding: 5px;
+        position: absolute;
+        top: 33px;
+        transform: skew(22deg, -6deg);
+        width: 39px;
+    }
+    .cash-tag {
+        display: table;
+    }
+    .bottom li {
+    margin: 5px 4px !important;
+    width: 100% !important;
+}
+
+}
+@media (max-width : 900px){
+    .bottom a {
+        padding: 10px 21px;
+    }
+}
+@media (max-width : 1190px){
+    .bottom a {
+        font-size: 14px;
+    }
+}
